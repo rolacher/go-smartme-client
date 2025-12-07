@@ -1,0 +1,28 @@
+# Go binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Coverage reports
+*.cover
+coverage.out
+
+# IDE-specific folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project-specific binary name
+go-smartme-client
+smartme-client-config.json
+
+# AI tool configuration files
+.aiignore
